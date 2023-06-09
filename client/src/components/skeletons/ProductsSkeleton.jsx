@@ -1,0 +1,141 @@
+import { Grid, Skeleton } from "@mui/material";
+
+export default function ProductsSkeleton() {
+  return (
+    <Grid
+      container
+      spacing={{ md: 3, lg: 4 }}
+      rowSpacing={2}
+      columnSpacing={2}
+    >
+      <Grid
+        item
+        xl={3}
+        sm={12}
+        md={6}
+        lg={4}
+      >
+        <Skeleton
+          variant="rectangular"
+          animation="wave"
+          height={250}
+          sx={{
+            borderRadius: "1rem",
+          }}
+        />
+      </Grid>
+      <Grid
+        item
+        xl={3}
+        sm={12}
+        md={6}
+        lg={4}
+      >
+        <Skeleton
+          variant="rectangular"
+          animation="wave"
+          height={250}
+          sx={{
+            borderRadius: "1rem",
+          }}
+        />
+      </Grid>
+      <Grid
+        item
+        xl={3}
+        sm={12}
+        md={6}
+        lg={4}
+      >
+        <Skeleton
+          variant="rectangular"
+          animation="wave"
+          height={250}
+          sx={{
+            borderRadius: "1rem",
+          }}
+        />
+      </Grid>
+      <Grid
+        item
+        xl={3}
+        sm={12}
+        md={6}
+        lg={4}
+      >
+        <Skeleton
+          variant="rectangular"
+          animation="wave"
+          height={250}
+          sx={{
+            borderRadius: "1rem",
+          }}
+        />
+      </Grid>
+      <Grid
+        item
+        xl={3}
+        sm={12}
+        md={6}
+        lg={4}
+      >
+        <Skeleton
+          variant="rectangular"
+          animation="wave"
+          height={250}
+          sx={{
+            borderRadius: "1rem",
+          }}
+        />
+      </Grid>
+      <Grid
+        item
+        xl={3}
+        sm={12}
+        md={6}
+        lg={4}
+      >
+        <Skeleton
+          variant="rectangular"
+          animation="wave"
+          height={250}
+          sx={{
+            borderRadius: "1rem",
+          }}
+        />
+      </Grid>
+      <Grid
+        item
+        xl={3}
+        sm={12}
+        md={6}
+        lg={4}
+      >
+        <Skeleton
+          variant="rectangular"
+          animation="wave"
+          height={250}
+          sx={{
+            borderRadius: "1rem",
+          }}
+        />
+      </Grid>
+      <Grid
+        item
+        xl={3}
+        sm={12}
+        md={6}
+        lg={4}
+      >
+        <Skeleton
+          variant="rectangular"
+          animation="wave"
+          height={250}
+          sx={{
+            borderRadius: "1rem",
+          }}
+        />
+      </Grid>
+    </Grid>
+  );
+}
