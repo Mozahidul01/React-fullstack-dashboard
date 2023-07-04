@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { Box, CircularProgress, useTheme } from "@mui/material";
 import { useGetSalesOverviewQuery } from "../features/salesOverview/salesOverviewApi";
 import { useMemo } from "react";

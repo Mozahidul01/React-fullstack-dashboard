@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { ResponsiveChoropleth } from "@nivo/geo";
 import { useTheme } from "@mui/material";
 import { geoData } from "../utils/geoData";

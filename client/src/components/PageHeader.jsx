@@ -1,6 +1,4 @@
-/* eslint-disable react/prop-types */
-import { useTheme } from "@emotion/react";
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, useTheme } from "@mui/material";
 
 export default function PageHeader({ title, subtitle }) {
   const theme = useTheme();

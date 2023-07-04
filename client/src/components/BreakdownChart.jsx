@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { ResponsivePie } from "@nivo/pie";
 import { Box, CircularProgress, Typography, useTheme } from "@mui/material";
 import { useGetSalesOverviewQuery } from "../features/salesOverview/salesOverviewApi";

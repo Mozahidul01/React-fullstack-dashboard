@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { Search } from "@mui/icons-material";
 import { IconButton, TextField, InputAdornment } from "@mui/material";
 import {

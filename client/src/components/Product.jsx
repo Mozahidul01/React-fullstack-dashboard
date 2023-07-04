@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { ExpandMore as ExpandMoreIcon } from "@mui/icons-material";
 import {
   Button,
